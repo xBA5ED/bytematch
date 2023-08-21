@@ -125,7 +125,7 @@ async fn main() -> Result<()> {
         );
     }
 
-    spinner.update(spinners::Dots, "Cloning project and installing dependicies", Color::Blue);
+    spinner.update(spinners::Dots, "Cloning project and installing dependencies", Color::Blue);
 
     // Get a temp folder where we can clone the project to
     let tmp_folder = &mut env::temp_dir();
